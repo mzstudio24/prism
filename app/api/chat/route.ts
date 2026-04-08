@@ -21,8 +21,3 @@ export async function POST(req: NextRequest) {
   const data = await response.json();
   return NextResponse.json(data);
 }
-```
-
-**Step 4.** Now open `C:\Users\Maciej\prism\.env.local` — create this file if it doesn't exist — and add:
-```
-ANTHROPIC_API_KEY=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
