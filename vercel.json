@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/__/auth/handler",
+      "source": "/__/auth/:path*", 
       "destination": "/index.html"
     },
     {
