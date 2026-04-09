@@ -1,12 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/__/auth/:path*", 
-      "destination": "/index.html"
+      "source": "/__/auth/:path*",
+      "destination": "/"
     },
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/"
     }
   ]
 }
+
