@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/__/auth/:path*",
-      "destination": "/"
+      "destination": "https://prism-9b6ab.firebaseapp.com/__/auth/:path*"
     },
     {
       "source": "/(.*)",
@@ -10,4 +10,5 @@
     }
   ]
 }
+
 
