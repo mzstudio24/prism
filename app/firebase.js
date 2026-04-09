@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDQotO7i7SEx0zjTrWcMEAPbhEb7IZI-IQ",
-  authDomain: "prism-aixom.com", // <--- THIS IS THE CHANGED LINE!
+  authDomain: "prism-aixom.com", // <--- THIS MUST BE "prism-aixom.com"
   projectId: "prism-9b6ab",
   storageBucket: "prism-9b6ab.firebasestorage.app",
   messagingSenderId: "98575435300",
